@@ -1,8 +1,6 @@
 .container {
   width: 60%;
   margin: 0 auto;
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -15,20 +13,13 @@
 .title {
   font-weight: bolder;
   font-size: 28px;
-  margin: 0px;
-}
-
-.title-divider {
-  margin: 10px
+  margin-bottom: 10px;
 }
 
 .paragraph {
   margin: 0px;
   font-size: 14px;
-}
-
-.divider {
-  margin: 20px
+  margin-bottom: 20px;
 }
 
 .social-link {
@@ -37,4 +28,23 @@
   font-weight: bold;
   text-decoration: none;
   color: rgb(32, 68, 227);
+}
+
+.btn {
+  background-color: #0f86ad; 
+  font-size: 18px;
+  color: white;
+  border: none; 
+  padding: 6px 12px; 
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.btn:hover {
+  background-color: #0d6886; 
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #179ac6;
 }
